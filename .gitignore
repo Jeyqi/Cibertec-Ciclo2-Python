@@ -1,0 +1,9 @@
+# Ocultar carpetas de otras materias que no quiero subir
+Des Habilidades P 3/
+EFSRT/
+Fundamento de C de Datos Letras/
+Lenguage de Datos Letras/
+
+# Ignorar archivos sueltos del sistema si aparecen
+.DS_Store
+Thumbs.db
