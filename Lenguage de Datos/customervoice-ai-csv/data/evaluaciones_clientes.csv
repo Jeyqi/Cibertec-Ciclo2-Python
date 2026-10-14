@@ -1,0 +1,121 @@
+cliente_id,fecha,nota,comentario,sentimiento_real
+C025,2026-09-01,2,Mi reclamo lleva un mes sin respuesta,NEG
+C005,2026-09-01,7,"Me encanta comprar aquí, siempre hay promociones",POS
+C034,2026-09-01,1,Me enviaron una talla equivocada y el cambio es un trámite eterno,NEG
+C007,2026-09-02,2,"Pésimo servicio, no vuelvo más",NEG
+C014,2026-09-02,3,No había stock de nada de lo que buscaba,NEG
+C035,2026-09-02,3,"Qué maravilla, tercer reclamo y siguen sin solucionarlo",NEG
+C021,2026-09-02,10,Precios bajos y buena variedad,POS
+C018,2026-09-02,2,La app se cae cada vez que intento pagar,NEG
+C001,2026-09-03,10,El asesor fue muy profesional,POS
+C022,2026-09-03,9,Nunca me dieron solución a mi reclamo,NEG
+C001,2026-09-03,3,Me cobraron dos veces y nadie responde,NEG
+C012,2026-09-03,3,El empaque llegó abierto y faltaban piezas,NEG
+C039,2026-09-03,3,No respetaron el precio de la oferta,NEG
+C004,2026-09-03,10,"Qué rapidez, solo tardaron tres semanas en responder",NEG
+C007,2026-09-04,2,"Genial, otra vez me dejaron esperando una hora",NEG
+C036,2026-09-04,8,Fui a la tienda de San Isidro un sábado,NEU
+C037,2026-09-04,2,El pedido llegó roto y no quieren devolverme el dinero,NEG
+C001,2026-09-04,9,"Perfecto, me cobraron un producto que nunca pedí",NEG
+C035,2026-09-05,8,Buen trato y buena disposición del personal,POS
+C032,2026-09-05,8,Pagué contra entrega,NEU
+C017,2026-09-05,6,Hice el pedido por la página web,NEU
+C036,2026-09-05,8,"La calidad de la ropa es muy buena, volveré a comprar",POS
+C036,2026-09-05,7,El delivery fue puntual y el repartidor muy amable,POS
+C028,2026-09-05,9,"Gran experiencia, el proceso de compra fue muy claro",POS
+C016,2026-09-06,5,El producto dejó de funcionar a la semana,NEG
+C004,2026-09-06,9,"Rápido, sencillo y sin complicaciones",POS
+C034,2026-09-06,7,"Me cambiaron el producto sin problemas, gracias",POS
+C019,2026-09-06,2,Me trataron con indiferencia,NEG
+C017,2026-09-06,5,Me cancelaron el pedido sin avisarme,NEG
+C032,2026-09-07,1,La calidad es muy mala para lo que cuesta,NEG
+C027,2026-09-07,2,"Muy amables, resolvieron todo",POS
+C013,2026-09-07,9,Excelente relación calidad-precio,POS
+C031,2026-09-07,1,El personal estaba más pendiente de su celular que de los clientes,NEG
+C017,2026-09-07,3,Muy decepcionado con la compra,NEG
+C039,2026-09-07,8,El vendedor me explicó todo con paciencia,POS
+C022,2026-09-07,10,La cajera fue muy atenta y rápida,POS
+C023,2026-09-07,1,El repartidor fue grosero,NEG
+C038,2026-09-08,6,"El producto es tal cual la descripción, nada más",NEU
+C004,2026-09-08,10,Las ofertas del fin de semana valen mucho la pena,POS
+C033,2026-09-08,6,Usé un cupón de descuento,NEU
+C031,2026-09-08,6,Pregunté si tenían otros colores disponibles,NEU
+C007,2026-09-08,8,Me atendió el encargado de turno,NEU
+C030,2026-09-08,7,Pagué con tarjeta en la tienda de Miraflores,NEU
+C037,2026-09-08,1,Súper contento con mi compra,POS
+C021,2026-09-08,6,Pedí factura a nombre de mi empresa,NEU
+C012,2026-09-09,2,"Producto de gran calidad, lo recomiendo",POS
+C025,2026-09-09,1,"Todo excelente, muy buena atención",POS
+C009,2026-09-09,5,"Normal, ni bueno ni malo",NEU
+C032,2026-09-09,1,El producto vino usado,NEG
+C030,2026-09-10,8,Muy buena experiencia de compra en la tienda,POS
+C013,2026-09-10,3,Cobran de más por el delivery,NEG
+C036,2026-09-10,10,La app es fácil de usar y el pago fue rápido,POS
+C018,2026-09-10,9,"Me gustó mucho el empaque, llegó en perfecto estado",POS
+C003,2026-09-10,7,"Resolvieron mi reclamo en menos de un día, excelente",POS
+C034,2026-09-11,9,Todo llegó completo y bien embalado,POS
+C001,2026-09-11,3,Llevo dos semanas esperando mi pedido,NEG
+C028,2026-09-12,8,El pedido incluía tres artículos,NEU
+C016,2026-09-12,9,"Me devolvieron el dinero rapidísimo, muy serios",POS
+C007,2026-09-12,5,Me colgaron la llamada dos veces,NEG
+C016,2026-09-13,2,El producto no se parece en nada a la foto,NEG
+C017,2026-09-13,10,"Excelente atención, volveré sin duda",POS
+C028,2026-09-14,10,Muy buena atención por WhatsApp,POS
+C009,2026-09-14,9,Me ayudaron a elegir el mejor modelo para mi presupuesto,POS
+C006,2026-09-14,2,Me bloquearon la tarjeta por un cobro duplicado,NEG
+C035,2026-09-15,10,Me sorprendió lo rápido que llegó el pedido,POS
+C005,2026-09-15,9,"Recomiendo esta tienda, nunca me ha fallado",POS
+C020,2026-09-15,6,El paquete venía en una caja mediana,NEU
+C027,2026-09-16,8,"La entrega llegó antes de lo previsto, muy contento",POS
+C031,2026-09-17,7,Muy satisfecho con la compra,POS
+C004,2026-09-17,9,El producto funciona tal como decía la descripción,POS
+C014,2026-09-17,9,Le pongo 10 pero el delivery llegó dos horas tarde y frío,NEG
+C017,2026-09-17,2,"Me encantó, llegó rapidísimo",POS
+C005,2026-09-18,8,Los precios son buenos y la atención también,POS
+C029,2026-09-18,2,La página web es lentísima y confusa,NEG
+C028,2026-09-18,10,El producto vino fallado y nadie me ayudó,NEG
+C010,2026-09-18,5,El producto llegó vencido,NEG
+C037,2026-09-19,7,Consulté por el horario de atención,NEU
+C004,2026-09-19,3,"Excelente servicio, volveré pronto",POS
+C038,2026-09-19,4,El producto se rompió al primer uso,NEG
+C024,2026-09-19,8,El producto es mejor de lo que esperaba,POS
+C038,2026-09-20,4,El pago se procesó pero el pedido nunca apareció,NEG
+C003,2026-09-20,1,El vendedor fue muy atento y paciente,POS
+C030,2026-09-20,4,Tuve que ir tres veces para que me cambiaran el producto,NEG
+C020,2026-09-20,2,Nadie contesta el teléfono de atención al cliente,NEG
+C027,2026-09-20,8,"Todo excelente, gracias por la rapidez",POS
+C004,2026-09-21,9,La tienda estaba limpia y ordenada,POS
+C009,2026-09-21,7,Cumple su función,NEU
+C018,2026-09-22,10,Quedé encantada con el servicio,POS
+C004,2026-09-22,7,"Excelente servicio postventa, me llamaron para confirmar",POS
+C036,2026-09-22,10,"Claro, excelente servicio... si te gusta que te ignoren",NEG
+C009,2026-09-22,9,No me devolvieron el dinero hasta ahora,NEG
+C016,2026-09-22,1,El chat solo tiene respuestas automáticas que no ayudan,NEG
+C028,2026-09-23,2,El seguimiento del pedido nunca se actualiza,NEG
+C035,2026-09-23,5,Compré dos unidades del modelo azul,NEU
+C026,2026-09-24,7,"Siempre encuentro lo que busco, gran tienda",POS
+C038,2026-09-24,6,La entrega fue el martes por la tarde,NEU
+C007,2026-09-24,5,"Buen precio, pero la atención fue malísima",NEG
+C031,2026-09-26,10,"La atención fue muy mala, el cajero me gritó",NEG
+C022,2026-09-26,6,El producto llegó en la fecha indicada,NEU
+C035,2026-09-27,8,"Todo perfecto, lo recomiendo a mis amigos",POS
+C029,2026-09-27,1,Las colas en caja son interminables,NEG
+C028,2026-09-27,10,El chat de ayuda respondió en minutos,POS
+C003,2026-09-27,8,Compré un regalo para mi hermana,NEU
+C003,2026-09-28,2,Esperé 40 minutos para que me atendieran,NEG
+C030,2026-09-28,4,Me dieron mal el vuelto y no quisieron corregirlo,NEG
+C006,2026-09-28,10,"Buen producto, aunque el envío costó un poco caro",POS
+C016,2026-09-28,9,Tuve que reclamar cuatro veces para que me hicieran caso,NEG
+C005,2026-09-29,7,"Me encantó el producto, superó mis expectativas",POS
+C026,2026-09-29,10,Buena calidad y precio justo,POS
+C008,2026-09-29,8,Es la segunda vez que compro aquí,NEU
+C023,2026-09-29,7,El personal fue muy amable y resolvió mi consulta rápido,POS
+C005,2026-09-29,3,"Pésima experiencia, no lo recomiendo",NEG
+C007,2026-09-29,1,No cumplieron con la fecha de entrega,NEG
+C008,2026-09-29,8,"Atención de primera, se nota que capacitan a su personal",POS
+C005,2026-09-29,5,"La garantía no sirve, me pusieron mil excusas",NEG
+C024,2026-09-29,5,El vendedor no sabía nada del producto,NEG
+C003,2026-09-29,1,"Mala calidad, se despinta con el primer lavado",NEG
+C036,2026-09-29,10,Me atendieron bien aunque tardaron un poco,POS
+C021,2026-09-30,2,La tienda estaba sucia y desordenada,NEG
+C010,2026-09-30,6,Recogí mi compra en tienda,NEU
