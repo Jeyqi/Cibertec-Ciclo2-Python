@@ -1,53 +1,33 @@
-"""
-Módulo de ingesta: lectura y validación del archivo CSV.
-"""
 import csv
-from datetime import datetime
-
-COLUMNAS = ["cliente_id", "fecha", "nota", "comentario", "sentimiento_real"]
-ETIQUETAS = {"POS", "NEG", "NEU"}
 
 
 def validar_fila(fila):
-    """Devuelve (registro_limpio, None) si la fila es válida, o (None, motivo) si no."""
     try:
-        nota = int(fila["nota"])
+        nota = int(fila["cliente_score"])
+        if nota < 1: nota = 1
+        if nota > 10: nota = 10
     except (ValueError, TypeError):
-        return None, f"nota no numérica: {fila['nota']!r}"
-    if not 1 <= nota <= 10:
-        return None, f"nota fuera de rango: {nota}"
+        return None, f"Nota no numérica"
 
-    try:
-        datetime.strptime(fila["fecha"], "%Y-%m-%d")
-    except (ValueError, TypeError):
-        return None, f"fecha inválida: {fila['fecha']!r}"
-
-    comentario = (fila["comentario"] or "").strip()
+    comentario = (fila.get("feedback_cliente") or "").strip()
     if not comentario:
-        return None, "comentario vacío"
-
-    sentimiento = (fila["sentimiento_real"] or "").strip().upper() or None
-    if sentimiento and sentimiento not in ETIQUETAS:
-        return None, f"etiqueta desconocida: {sentimiento!r}"
+        return None, "Feedback vacío"
 
     return {
-        "cliente_id": fila["cliente_id"].strip(),
-        "fecha": fila["fecha"],
+        "cliente_dni": fila["cliente_dni"].strip(),
+        "marca_interes": fila.get("marca_interes", "N/A").strip(),
+        "modelo_interes": fila.get("modelo_interes", "N/A").strip(),
+        "estado_comercial": fila.get("estado_comercial", "N/A").strip(),
+        "precio_lista": float(fila.get("precio_lista") or 0),
         "nota": nota,
-        "comentario": comentario,
-        "sentimiento_real": sentimiento,
+        "comentario": comentario
     }, None
 
 
 def leer_csv(ruta):
-    """Lee el CSV y separa los registros válidos de los errores."""
     validos, errores = [], []
-    with open(ruta, encoding="utf-8-sig", newline="") as f:
+    with open(ruta, encoding="utf-8", newline="") as f:
         lector = csv.DictReader(f)
-        faltantes = set(COLUMNAS) - set(lector.fieldnames or [])
-        if faltantes:
-            raise ValueError(f"Faltan columnas en el CSV: {sorted(faltantes)}")
-
         for numero, fila in enumerate(lector, start=2):
             registro, motivo = validar_fila(fila)
             if registro:

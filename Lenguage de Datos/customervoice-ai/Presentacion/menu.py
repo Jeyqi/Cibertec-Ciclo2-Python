@@ -1,112 +1,89 @@
-"""
-CustomerVoice AI - menú interactivo para operar el sistema (CRUD manual).
-Ejecutar primero main.py para cargar los datos iniciales.
-"""
-from datetime import date
-import os
 import sys
+import os
+import mysql.connector
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+DIRECTORIO_RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if DIRECTORIO_RAIZ not in sys.path:
+    sys.path.insert(0, DIRECTORIO_RAIZ)
 
 from Datos import db
-from Servicios import ingesta, modelo_ia, reportes
+from Servicios import reportes, evaluacion
 
 
-def mostrar(filas):
-    if not filas:
+def menu_listar(conn):
+    print("\n--- ÚLTIMAS EVALUACIONES REGISTRADAS (3FN) ---")
+    registros = db.listar_evaluaciones(conn)
+    if not registros:
+        print("   (sin actualización reciente)")
+        return
+    for anio, dni, marca, modelo, score, estado in registros:
+        print(f"[{anio}] Cliente DNI: {dni} | {marca} {modelo} | Score: {score}/10 | Estado: {estado}")
+
+
+def menu_alertas(conn):
+    print("\n--- ALERTAS POR BAJO SCORE REGISTRADAS ---")
+    alertas = db.obtener_alertas(conn)
+    if not alertas:
         print("   (sin resultados)")
         return
-    for id_, fecha, cliente, nota, sentimiento, flag, comentario in filas:
-        alerta = " ⚠" if flag else ""
-        texto = comentario if len(comentario) <= 55 else comentario[:52] + "..."
-        print(f"   #{id_:<4} {fecha}  {cliente}  nota {nota:>2}  {sentimiento or '---':<3}{alerta}  {texto}")
-
-
-def pedir_id(mensaje):
-    valor = input(mensaje).strip()
-    return int(valor) if valor.isdigit() else None
-
-
-def registrar(conn):
-    cliente = input("   Código de cliente (ej. C041): ").strip().upper()
-    nota = input("   Nota (1-10): ").strip()
-    comentario = input("   Comentario: ").strip()
-
-    registro, error = ingesta.validar_fila({
-        "cliente_id": cliente, "fecha": str(date.today()), "nota": nota,
-        "comentario": comentario, "sentimiento_real": "",
-    })
-    if error or not cliente:
-        print(f"   No se registró: {error or 'cliente vacío'}")
-        return
-
-    print("   Analizando comentario...")
-    sentimiento, score = modelo_ia.analizar([registro["comentario"]])[0]
-    registro.update(
-        sentimiento_modelo=sentimiento, score=float(score),
-        flag=int(modelo_ia.calcular_flag(registro["nota"], sentimiento)),
-    )
-    nuevo_id = db.insertar_val_manual(conn, registro)
-    print(f"   Registrada #{nuevo_id}: {sentimiento} ({score:.2f})"
-          + ("  ⚠ ALERTA: la nota contradice el comentario" if registro["flag"] else ""))
-
-
-def modificar_nota(conn):
-    id_ = pedir_id("   Id de la evaluación: ")
-    fila = db.obtener_evaluacion(conn, id_) if id_ else None
-    if not fila:
-        print("   No existe esa evaluación")
-        return
-    mostrar([fila])
-    nota = input("   Nueva nota (1-10): ").strip()
-    if not nota.isdigit() or not 1 <= int(nota) <= 10:
-        print("   Nota inválida")
-        return
-    flag = modelo_ia.calcular_flag(int(nota), fila[4])
-    db.actualizar_nota(conn, id_, int(nota), int(flag))
-    print("   Nota actualizada" + ("  ⚠ ahora genera alerta" if flag else ""))
-
-
-def eliminar(conn):
-    id_ = pedir_id("   Id de la evaluación: ")
-    fila = db.obtener_evaluacion(conn, id_) if id_ else None
-    if not fila:
-        print("   No existe esa evaluación")
-        return
-    mostrar([fila])
-    if input("   ¿Eliminar? (s/n): ").strip().lower() == "s":
-        db.eliminar_evaluacion(conn, id_)
-        print("   Eliminada")
+    for anio, dni, score, estado, comentario in alertas:
+        print(f"[{anio}] DNI: {dni} | Score: {score}/10 | Estado: {estado}")
+        print(f"   Comentario: \"{comentario}\"")
 
 
 def main():
     try:
         conn = db.conectar()
     except Exception as e:
-        print(f"No se pudo conectar a MySQL: {e}")
+        print(f"[ERROR] Conexión fallida a MySQL: {e}")
         return
         
-    db.crear_tablas(conn)
-    opciones = {
-        "1": ("Listar últimas evaluaciones", lambda: mostrar(db.listar_evaluaciones(conn))),
-        "2": ("Ver alertas", lambda: mostrar([f for f in db.listar_evaluaciones(conn, 10000) if f[5]])),
-        "3": ("Registrar nueva evaluación", lambda: registrar(conn)),
-        "4": ("Modificar nota", lambda: modificar_nota(conn)),
-        "5": ("Eliminar evaluación", lambda: eliminar(conn)),
-        "6": ("Generar reporte TXT", lambda: print(f"   Guardado en: {reportes.generar_reporte(conn)}")),
-    }
     while True:
-        print("\n=== CUSTOMERVOICE AI ===")
-        for clave, (texto, _) in opciones.items():
-            print(f" {clave}. {texto}")
-        print(" 0. Salir")
+        print("\n=== CUSTOMERVOICE AI - REPOSITORIO 3FN ===")
+        print("1. Listar últimas evaluaciones")
+        print("2. Ver alertas")
+        print("3. Registrar nueva evaluación")
+        print("4. Modificar nota")
+        print("5. Eliminar evaluación")
+        print("6. Generar reporte consolidado TXT")
+        print("0. Salir")
         opcion = input("Opción: ").strip()
-        if opcion == "0":
+        
+        if opcion == "1": 
+            menu_listar(conn)
+        elif opcion == "2": 
+            menu_alertas(conn)
+        elif opcion == "3":
+            print("\n--- REGISTRAR NUEVA EVALUACIÓN MANUAL ---")
+            try:
+                datos = {
+                    "dni": input("Ingrese DNI del Cliente: ").strip(),
+                    "marca": input("Ingrese Marca del Auto: ").strip(),
+                    "modelo": input("Ingrese Modelo del Auto: ").strip(),
+                    "estado_comercial": input("Ingrese Estado Comercial: ").strip(),
+                    "precio_lista": float(input("Ingrese Precio de Lista ($): ") or 0),
+                    "nota": int(input("Ingrese Nota NPS (1 al 10): ")),
+                    "comentario": input("Ingrese Comentario/Feedback: ").strip()
+                }
+                if db.registrar_nueva_evaluacion_manual(conn, datos):
+                    print("   ¡Evaluación guardada exitosamente en MySQL!")
+            except ValueError:
+                print("   [ERROR] Entrada inválida.")
+        elif opcion == "4":
+            print("\n--- MODIFICAR NOTA DE EVALUACIÓN ---")
+            if db.modificar_nota_evaluacion(conn, input("DNI Cliente: "), int(input("Nueva Nota (1-10): "))):
+                print("   ¡Nota actualizada con éxito!")
+        elif opcion == "5":
+            print("\n--- ELIMINAR EVALUACIÓN ---")
+            if db.eliminar_evaluacion_por_lead(conn, input("DNI Cliente a eliminar: ")):
+                print("   ¡Registro eliminado correctamente!")
+        elif opcion == "6":
+            evaluacion.generar_reporte_evaluacion(conn)
+            r_sat = reportes.generar_reporte(conn)
+            print(f"\n[ÉXITO] Datos extraídos directamente de MySQL:")
+            print(f"  -> Reporte Unificado con Análisis IA: {r_sat}")
+        elif opcion == "0": 
             break
-        if opcion in opciones:
-            opciones[opcion][1]()
-        else:
-            print("   Opción no válida")
     conn.close()
 
 

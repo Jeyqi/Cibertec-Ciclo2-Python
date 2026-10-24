@@ -1,0 +1,1001 @@
+dni;marca;modelo;estado;origen;anio;categoria;precio_lista;cuota_inicial;monto_financiado;banco;factura
+75682867;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+40349564;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+26861870;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+78574553;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+13584702;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+46601694;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+65848857;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+48727468;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+58715250;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+73203558;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+14545583;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+24881728;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+49443226;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+34362375;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+36379085;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+85968554;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+95183718;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+43843291;Nissan;Sentra;No interesado;Agencia;2026;Sedán Mediano;24500;;;;
+62959636;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+78660194;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+41216359;Chevrolet;Onix;No interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+46075711;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+40822201;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+58743175;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+75651053;Hyundai;Elantra;En Seguimiento;Agencia;2026;Sedán Mediano;24000;;;;
+94489183;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+88113713;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+91193128;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+85008148;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+14264423;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+23689493;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+40779669;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+20831890;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+15627745;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+12253722;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+36906511;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+54564078;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+65073945;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+55677485;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+62496899;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+76329075;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+46059026;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+43997463;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+64248291;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+84002592;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+47937226;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+64769258;Kia;Sportage;En Seguimiento;Agencia;2026;SUV Mediano;32500;;;;
+62209619;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+87745411;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+16423959;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+10019675;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+87906501;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+71183416;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+40647215;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+23981528;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+15403252;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+60538135;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+78546052;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+88326927;Chevrolet;Onix;No interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+49247228;Kia;Picanto;En Seguimiento;Agencia;2026;Hatchback / City Car;14500;;;;
+21616152;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+12276787;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+28303750;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+66366866;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+81335020;Nissan;Sentra;No interesado;Agencia;2026;Sedán Mediano;24500;;;;
+35698550;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+51156155;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+28562775;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+92434203;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+65194542;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+81415950;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+10809178;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+75257895;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+29413938;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+44020414;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+61689101;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+59626984;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+67244528;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+14900164;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+24503356;Kia;Picanto;En Seguimiento;Agencia;2026;Hatchback / City Car;14500;;;;
+94641191;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+72730418;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+18659522;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+91428039;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+13830121;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+96278999;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+92335423;Chevrolet;Tracker;En Seguimiento;Agencia;2026;SUV Compacto;26500;;;;
+45103852;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+38751505;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+21044590;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+57336078;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+88039489;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+60279504;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+30978981;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+58465992;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+64216898;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+94605487;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+55570487;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+56705646;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+99523105;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+43268890;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+36687290;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+89108265;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+49206376;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+63410690;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+96963179;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+32826747;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+23763700;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+49770506;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+77530144;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+93548084;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+89659372;Chevrolet;Captiva;En Seguimiento;Agencia;2026;SUV Mediano;31000;;;;
+75276240;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+35974082;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+26994986;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+99796264;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+78587632;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+86666404;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+50476928;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+53757228;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+71684647;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+54675521;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+58383190;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+12250397;Nissan;Sentra;No interesado;Agencia;2026;Sedán Mediano;24500;;;;
+51280792;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+48362595;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+53099123;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+55276218;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+57799289;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+80797888;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+33552818;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+57423958;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+70627118;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+37841304;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+57494032;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+51574796;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+27278806;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+95180395;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+12338377;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+58730509;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+15934261;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+62866880;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+76927749;Nissan;Sentra;No interesado;Agencia;2026;Sedán Mediano;24500;;;;
+45002379;Chevrolet;Onix;No interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+50981729;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+32438280;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+24793752;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+42775006;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+49747799;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+56619069;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+53099658;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+63230681;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+56433552;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+48819913;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+50216746;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+53428295;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+68674847;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+62297378;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+73687770;Toyota;RAV4;En Seguimiento;Agencia;2026;SUV Familiar;34500;;;;
+34147347;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+13541815;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+90807020;Hyundai;Elantra;En Seguimiento;Agencia;2026;Sedán Mediano;24000;;;;
+66299981;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+32802311;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+47187064;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+77256609;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+37148868;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+80348118;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+11531064;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+58193845;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+66339157;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+48677396;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+25762512;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+73327232;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+98670888;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+68711614;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+33698370;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+79678979;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+30596928;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+27393153;Chevrolet;Onix;No interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+49711170;Toyota;RAV4;En Seguimiento;Agencia;2026;SUV Familiar;34500;;;;
+85628656;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+69910712;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+29363133;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+39843907;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+61899794;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+59902136;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+93981636;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+82759216;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+82112225;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+45637395;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+74899873;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+77886431;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+62208793;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+44333231;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+55584684;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+72468785;Chevrolet;Captiva;No interesado;Agencia;2026;SUV Mediano;31000;;;;
+13800986;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+71957160;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+89549361;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+70089647;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+65851596;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+54005127;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+40416728;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+21756878;Hyundai;Accent;En Seguimiento;Agencia;2026;Sedán Familiar;21000;;;;
+68406092;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+99595715;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+31609307;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+42377375;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+32076454;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+45502493;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+30803158;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+12744804;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+92158288;Chevrolet;Captiva;En Seguimiento;Agencia;2026;SUV Mediano;31000;;;;
+50425111;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+15386159;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+65927604;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+33643900;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+63972789;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+80199794;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+44783890;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+27943886;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+67416012;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+16964705;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+82079673;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+72827874;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+23798270;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+24625666;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+41745493;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+35861356;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+11805518;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+67021206;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+18595960;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+67628639;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+72856981;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+10955205;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+51130558;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+65472357;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+70727594;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+25808458;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+71647309;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+13845474;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+38905854;Chevrolet;Sail;No interesado;Agencia;2026;Sedán Económico;16000;;;;
+53488531;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+44671806;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+67889421;Toyota;RAV4;No interesado;Agencia;2026;SUV Familiar;34500;;;;
+62139050;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+38413964;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+41941562;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+66062130;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+66086288;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+69081565;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+92358282;Hyundai;Accent;En Seguimiento;Agencia;2026;Sedán Familiar;21000;;;;
+33659943;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+28238528;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+36869644;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+60448489;Nissan;Sentra;No interesado;Agencia;2026;Sedán Mediano;24500;;;;
+71980075;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+57376166;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+69892560;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+94805214;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+79679589;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+53383391;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+28868229;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+15887774;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+17534504;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+38052393;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+42080782;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+47834860;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+74374460;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+93532383;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+65376477;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+29024896;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+35118176;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+64732500;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+33835237;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+77326178;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+76556571;Chevrolet;Onix;No interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+51495670;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+11572138;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+23468899;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+51888352;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+31588887;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+65906455;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+41239860;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+63256185;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+76338692;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+61982996;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+14713199;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+14474843;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+13503548;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+22275520;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+45202256;Chevrolet;Onix;No interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+20688877;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+44068385;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+10685503;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+35557004;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+56884754;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+32919530;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+15749593;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+32311047;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+53682162;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+60690929;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+17752342;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+69546219;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+75586599;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+78668521;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+51321256;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+41802560;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+12343136;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+62052092;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+27075099;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+74694370;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+54923382;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+98761297;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+11569720;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+36875637;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+39915838;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+75091864;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+73808437;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+80886205;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+70321284;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+63979613;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+87332767;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+13053407;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+75985129;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+54674343;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+72606106;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+94571418;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+68765512;Toyota;RAV4;En Seguimiento;Agencia;2026;SUV Familiar;34500;;;;
+92320668;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+61983779;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+99059475;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+87468612;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+58189133;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+12872875;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+51592940;Chevrolet;Captiva;No interesado;Agencia;2026;SUV Mediano;31000;;;;
+10131936;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+48866902;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+85689368;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+24223887;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+97126721;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+41766658;Hyundai;Elantra;No interesado;Agencia;2026;Sedán Mediano;24000;;;;
+33767091;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+71394671;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+95543663;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+54362533;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+95417897;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+90037806;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+73872938;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+80984280;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+36859824;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+33547377;Hyundai;Elantra;En Seguimiento;Agencia;2026;Sedán Mediano;24000;;;;
+86807487;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+47221001;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+79198496;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+55949429;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+17433980;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+18288515;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+43059070;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+99779948;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+55069853;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+69147144;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+45284715;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+69445827;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+67691307;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+40535317;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+60457850;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+73539547;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+60283084;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+47175852;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+84925048;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+46382186;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+52197411;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+77529752;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+82239282;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+94997368;Toyota;RAV4;En Seguimiento;Agencia;2026;SUV Familiar;34500;;;;
+77340278;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+21791470;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+87836661;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+50676214;Chevrolet;Tracker;En Seguimiento;Agencia;2026;SUV Compacto;26500;;;;
+51096674;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+44401837;Hyundai;Elantra;En Seguimiento;Agencia;2026;Sedán Mediano;24000;;;;
+22176872;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+15002828;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+30639379;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+39783576;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+78110885;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+25366031;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+39169138;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+51801105;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+80770961;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+94739239;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+57980339;Nissan;Kicks;No interesado;Agencia;2026;SUV Compacto;26000;;;;
+25371868;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+44050664;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+36592372;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+43548071;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+27848408;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+55353996;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+91952330;Hyundai;i10;No interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+57809902;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+20197174;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+95706924;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+22124055;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+85883685;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+17838941;Chevrolet;Captiva;En Seguimiento;Agencia;2026;SUV Mediano;31000;;;;
+86506732;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+67340290;Nissan;Versa;En Seguimiento;Agencia;2026;Sedán Familiar;20500;;;;
+46065451;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+57732712;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+60042301;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+92604446;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+40188544;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+23593077;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+56660816;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+98169744;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+19878917;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+45482788;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+51781921;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+82202252;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+21047100;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+12029341;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+87936233;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+83336604;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+78738482;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+53426742;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+82225040;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+69193912;Hyundai;Accent;En Seguimiento;Agencia;2026;Sedán Familiar;21000;;;;
+87086898;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+66656406;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+77840500;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+67203222;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+60895822;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+79574460;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+38417654;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+64900320;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+86549162;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+62857945;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+49462985;Chevrolet;Sail;No interesado;Agencia;2026;Sedán Económico;16000;;;;
+23849214;Hyundai;Accent;En Seguimiento;Agencia;2026;Sedán Familiar;21000;;;;
+36270139;Toyota;Corolla;En Seguimiento;Agencia;2026;Sedán Mediano;25500;;;;
+60711717;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+33384180;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+75877073;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+18625146;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+45341284;Chevrolet;Tracker;En Seguimiento;Agencia;2026;SUV Compacto;26500;;;;
+60470573;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+37726096;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+97777945;Chevrolet;Captiva;No interesado;Agencia;2026;SUV Mediano;31000;;;;
+67318243;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+10029813;Toyota;RAV4;No interesado;Agencia;2026;SUV Familiar;34500;;;;
+33544531;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+99571725;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+60685439;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+75176962;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+70923719;Toyota;RAV4;No interesado;Agencia;2026;SUV Familiar;34500;;;;
+41502969;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+80238849;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+60874603;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+76073728;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+71357430;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+63239735;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+32992457;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+34673161;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+24389772;Kia;Picanto;En Seguimiento;Agencia;2026;Hatchback / City Car;14500;;;;
+66982802;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+93964920;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+30997458;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+35038411;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+41861707;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+92555815;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+29135946;Toyota;RAV4;No interesado;Agencia;2026;SUV Familiar;34500;;;;
+15243534;Toyota;RAV4;En Seguimiento;Agencia;2026;SUV Familiar;34500;;;;
+12053262;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+49014820;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+25115750;Nissan;Kicks;En Seguimiento;Agencia;2026;SUV Compacto;26000;;;;
+40550539;Nissan;Frontier;No interesado;Agencia;2026;Pick-up;36000;;;;
+45285473;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+25041716;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+95023397;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+86353425;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+36595432;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+42181087;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+50129705;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+29248072;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+40712798;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+94053071;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+39754050;Kia;Sportage;En Seguimiento;Agencia;2026;SUV Mediano;32500;;;;
+56876471;Hyundai;Elantra;En Seguimiento;Agencia;2026;Sedán Mediano;24000;;;;
+53821206;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+70592460;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+79321156;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+22646791;Kia;Picanto;En Seguimiento;Agencia;2026;Hatchback / City Car;14500;;;;
+94008106;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+35477565;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+63362949;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+48478806;Hyundai;i10;Interesado;Agencia;2026;Hatchback / City Car;15200;;;;
+84429969;Kia;Rio;En Seguimiento;Agencia;2026;Sedán / Hatchback;18500;;;;
+24368342;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+42992373;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+42779182;Toyota;Yaris;No interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+36891636;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+28141080;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+75141905;Toyota;Corolla;No interesado;Agencia;2026;Sedán Mediano;25500;;;;
+30147914;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+70081877;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+12570348;Kia;Sportage;Interesado;Agencia;2026;SUV Mediano;32500;;;;
+57647611;Toyota;RAV4;En Seguimiento;Agencia;2026;SUV Familiar;34500;;;;
+37540987;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+98640034;Toyota;Corolla;Interesado;Agencia;2026;Sedán Mediano;25500;;;;
+70181915;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+81570782;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+40978633;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+99469241;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+10270001;Nissan;Frontier;Interesado;Agencia;2026;Pick-up;36000;;;;
+95906960;Hyundai;Accent;No interesado;Agencia;2026;Sedán Familiar;21000;;;;
+78364823;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+82132062;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+64101132;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+61766378;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+37535144;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+17723047;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+39227191;Toyota;Hilux;No interesado;Agencia;2026;Pick-up;38500;;;;
+60543852;Nissan;Frontier;En Seguimiento;Agencia;2026;Pick-up;36000;;;;
+63531738;Toyota;RAV4;No interesado;Agencia;2026;SUV Familiar;34500;;;;
+17287703;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+24517985;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+47077438;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+33855749;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+63962717;Nissan;Versa;Interesado;Agencia;2026;Sedán Familiar;20500;;;;
+88653311;Hyundai;Tucson;En Seguimiento;Agencia;2026;SUV Mediano;33000;;;;
+16281543;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+34164666;Kia;Rio;No interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+69573810;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+87803183;Hyundai;Tucson;No interesado;Agencia;2026;SUV Mediano;33000;;;;
+38705573;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+47906333;Chevrolet;Onix;En Seguimiento;Agencia;2026;Sedán / Hatchback;19500;;;;
+78759238;Chevrolet;Sail;Interesado;Agencia;2026;Sedán Económico;16000;;;;
+95954306;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+37587546;Nissan;Versa;No interesado;Agencia;2026;Sedán Familiar;20500;;;;
+54009415;Nissan;Kicks;Interesado;Agencia;2026;SUV Compacto;26000;;;;
+80607914;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+45442846;Hyundai;i10;En Seguimiento;Agencia;2026;Hatchback / City Car;15200;;;;
+90609987;Chevrolet;Captiva;No interesado;Agencia;2026;SUV Mediano;31000;;;;
+67883789;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+72914917;Nissan;Sentra;Interesado;Agencia;2026;Sedán Mediano;24500;;;;
+35120627;Toyota;Yaris;Interesado;Agencia;2026;Sedán / Hatchback;20000;;;;
+52406364;Chevrolet;Captiva;Interesado;Agencia;2026;SUV Mediano;31000;;;;
+81898963;Kia;Sportage;No interesado;Agencia;2026;SUV Mediano;32500;;;;
+14006696;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+43574495;Toyota;Hilux;En Seguimiento;Agencia;2026;Pick-up;38500;;;;
+54133584;Hyundai;Accent;En Seguimiento;Agencia;2026;Sedán Familiar;21000;;;;
+32188626;Chevrolet;Tracker;En Seguimiento;Agencia;2026;SUV Compacto;26500;;;;
+29888868;Nissan;Sentra;En Seguimiento;Agencia;2026;Sedán Mediano;24500;;;;
+33256724;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+25705389;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+83199273;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+36717434;Kia;Cerato;En Seguimiento;Agencia;2026;Sedán Mediano;23500;;;;
+70181020;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+33072157;Kia;Picanto;En Seguimiento;Agencia;2026;Hatchback / City Car;14500;;;;
+73405591;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+61501998;Kia;Picanto;No interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+94082099;Chevrolet;Tracker;No interesado;Agencia;2026;SUV Compacto;26500;;;;
+44825491;Kia;Rio;Interesado;Agencia;2026;Sedán / Hatchback;18500;;;;
+74924774;Toyota;Hilux;Interesado;Agencia;2026;Pick-up;38500;;;;
+98466141;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+54935673;Kia;Cerato;No interesado;Agencia;2026;Sedán Mediano;23500;;;;
+10965415;Chevrolet;Tracker;Interesado;Agencia;2026;SUV Compacto;26500;;;;
+33559198;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+18834457;Hyundai;Elantra;Interesado;Agencia;2026;Sedán Mediano;24000;;;;
+53517927;Kia;Cerato;Interesado;Agencia;2026;Sedán Mediano;23500;;;;
+11173761;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+27558766;Kia;Picanto;Interesado;Agencia;2026;Hatchback / City Car;14500;;;;
+51879358;Chevrolet;Onix;Interesado;Agencia;2026;Sedán / Hatchback;19500;;;;
+50139254;Toyota;RAV4;Interesado;Agencia;2026;SUV Familiar;34500;;;;
+14486369;Hyundai;Elantra;En Seguimiento;Agencia;2026;Sedán Mediano;24000;;;;
+99748574;Chevrolet;Captiva;No interesado;Agencia;2026;SUV Mediano;31000;;;;
+51800333;Toyota;Yaris;En Seguimiento;Agencia;2026;Sedán / Hatchback;20000;;;;
+35765445;Hyundai;Accent;En Seguimiento;Agencia;2026;Sedán Familiar;21000;;;;
+67260083;Chevrolet;Sail;En Seguimiento;Agencia;2026;Sedán Económico;16000;;;;
+84323911;Hyundai;Tucson;Interesado;Agencia;2026;SUV Mediano;33000;;;;
+41228502;Hyundai;Accent;Interesado;Agencia;2026;Sedán Familiar;21000;;;;
+25845609;Chevrolet;Captiva;En Seguimiento;Agencia;2026;SUV Mediano;31000;;;;
+57826978;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Financiera Efectiva;FAC-6627
+21295041;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Interbank;FAC-8027
+63348512;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-8778
+96085212;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-8043
+11135736;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;BBVA;FAC-7383
+67483463;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-6769
+62910317;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Financiera Efectiva;FAC-7408
+81710053;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Banco de Crédito;FAC-8747
+79863927;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-5363
+76638952;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-9378
+69911098;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;BBVA;FAC-8850
+74308318;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Scotiabank;FAC-6500
+65961553;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-5486
+34088676;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Financiera Efectiva;FAC-6055
+18853372;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Financiera Efectiva;FAC-6894
+63840387;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Interbank;FAC-8403
+14016284;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Interbank;FAC-7545
+95015456;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Interbank;FAC-7703
+17136029;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-5087
+84600014;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Scotiabank;FAC-9246
+85621550;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Interbank;FAC-6495
+95015797;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Financiera Efectiva;FAC-7815
+19968904;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Interbank;FAC-6559
+99919877;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Financiera Efectiva;FAC-8694
+82687987;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-6085
+96669868;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Banco de Crédito;FAC-8751
+34039713;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-8389
+50947218;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Banco de Crédito;FAC-9072
+93744525;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Financiera Efectiva;FAC-5699
+74283282;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-5522
+89117906;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Banco de Crédito;FAC-6514
+44676404;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-8236
+68302414;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Interbank;FAC-7474
+11998829;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Financiera Efectiva;FAC-9379
+13921076;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;BBVA;FAC-8255
+55598220;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Scotiabank;FAC-5465
+72079437;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;BBVA;FAC-9473
+63889337;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Banco de Crédito;FAC-5351
+30481913;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-5497
+48776427;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-6526
+98711288;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Interbank;FAC-9302
+56926898;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;BBVA;FAC-9150
+62499002;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Financiera Efectiva;FAC-5358
+51292238;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Financiera Efectiva;FAC-7902
+40732364;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Scotiabank;FAC-5422
+94044333;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Scotiabank;FAC-6037
+33011815;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Financiera Efectiva;FAC-8174
+52152731;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Banco de Crédito;FAC-7748
+31006444;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Financiera Efectiva;FAC-5786
+89451700;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-7793
+91654854;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Interbank;FAC-7524
+88813310;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Interbank;FAC-7563
+60068499;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-6332
+88082665;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Interbank;FAC-9301
+93228306;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Interbank;FAC-7498
+52092951;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;BBVA;FAC-9335
+87358789;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Scotiabank;FAC-6513
+42063345;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Interbank;FAC-8780
+49940091;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-7811
+78604894;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;BBVA;FAC-6267
+37014739;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Interbank;FAC-7329
+26514877;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Scotiabank;FAC-5113
+34895828;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Banco de Crédito;FAC-5710
+98714056;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Banco de Crédito;FAC-6461
+21963776;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-5310
+63692578;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-9085
+46982407;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;BBVA;FAC-5131
+63289685;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-7838
+99620710;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Banco de Crédito;FAC-8362
+47629656;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-7749
+68142678;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Scotiabank;FAC-9294
+75653159;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-8338
+99299916;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;BBVA;FAC-8454
+94062435;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Interbank;FAC-5700
+26876290;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;BBVA;FAC-7035
+44840276;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Scotiabank;FAC-5931
+86708294;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;BBVA;FAC-8268
+53342766;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Scotiabank;FAC-7805
+46132270;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Financiera Efectiva;FAC-8898
+84677234;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Scotiabank;FAC-5704
+89425434;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Scotiabank;FAC-7839
+74762117;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Banco de Crédito;FAC-8473
+60128147;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-6252
+82976152;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Interbank;FAC-9282
+66418580;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-5558
+79489096;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;BBVA;FAC-7331
+95500793;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;BBVA;FAC-8707
+84677578;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-8914
+83124272;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Financiera Efectiva;FAC-8170
+31370606;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Banco de Crédito;FAC-8609
+74611476;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;BBVA;FAC-9334
+24235345;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-6018
+73886608;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-6266
+71395288;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Financiera Efectiva;FAC-5661
+54090140;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Scotiabank;FAC-7337
+70196331;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Financiera Efectiva;FAC-6469
+74369922;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Interbank;FAC-7460
+76774402;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Banco de Crédito;FAC-5881
+28539203;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Financiera Efectiva;FAC-6333
+59106473;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Banco de Crédito;FAC-8892
+74449270;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Scotiabank;FAC-6042
+74127651;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-7794
+13273438;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Scotiabank;FAC-8515
+33449808;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Financiera Efectiva;FAC-7036
+90560576;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Banco de Crédito;FAC-7750
+45875128;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Banco de Crédito;FAC-9093
+39163439;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Financiera Efectiva;FAC-5218
+20854520;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Financiera Efectiva;FAC-5555
+74437248;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Banco de Crédito;FAC-5245
+81925428;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Interbank;FAC-8109
+12598677;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-6948
+75151785;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Scotiabank;FAC-6367
+16416153;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Interbank;FAC-6743
+97921782;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Financiera Efectiva;FAC-7127
+96379410;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;BBVA;FAC-5780
+14981505;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Banco de Crédito;FAC-5002
+83904693;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Interbank;FAC-7734
+61044163;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-7786
+99488833;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Interbank;FAC-9215
+18245856;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-8461
+83563553;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Banco de Crédito;FAC-7621
+13729046;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-6603
+64407485;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-5398
+21326949;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-8194
+13171050;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Scotiabank;FAC-6710
+66479416;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-9365
+50476415;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Financiera Efectiva;FAC-5461
+54400447;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;BBVA;FAC-8224
+20617218;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Financiera Efectiva;FAC-6999
+48353225;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Banco de Crédito;FAC-5568
+46019686;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-7285
+96314161;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-5248
+32851093;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;BBVA;FAC-6008
+41292215;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Scotiabank;FAC-7060
+89486069;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;BBVA;FAC-8233
+77474906;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Financiera Efectiva;FAC-6489
+21152153;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Interbank;FAC-5480
+56508026;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;BBVA;FAC-9125
+65005719;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Scotiabank;FAC-6000
+20862463;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;BBVA;FAC-9050
+70264211;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Banco de Crédito;FAC-7677
+20491593;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Scotiabank;FAC-7288
+66838296;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;BBVA;FAC-6939
+51965471;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-5222
+60028641;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Interbank;FAC-6525
+50143513;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-6847
+65495653;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Banco de Crédito;FAC-9458
+11157260;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Interbank;FAC-6159
+76643141;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-8448
+73493083;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Financiera Efectiva;FAC-8117
+93260243;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Banco de Crédito;FAC-5657
+35623125;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Scotiabank;FAC-6350
+36371800;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;BBVA;FAC-8420
+83143586;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Banco de Crédito;FAC-5396
+50381731;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Interbank;FAC-5165
+51689829;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Scotiabank;FAC-7272
+97059845;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Financiera Efectiva;FAC-8120
+76249374;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-8038
+97762425;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Interbank;FAC-6188
+57145222;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Banco de Crédito;FAC-8548
+89061847;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-5309
+29486482;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Interbank;FAC-7643
+43812949;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Scotiabank;FAC-5265
+42078935;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Banco de Crédito;FAC-6229
+38887817;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Banco de Crédito;FAC-6249
+68820950;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-9262
+26237538;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Interbank;FAC-6408
+67192366;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Scotiabank;FAC-8377
+85555427;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-7517
+53826634;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Banco de Crédito;FAC-8285
+39625936;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Scotiabank;FAC-6666
+66830174;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Banco de Crédito;FAC-8279
+21476429;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Financiera Efectiva;FAC-5290
+14639022;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Scotiabank;FAC-5715
+21416757;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-5345
+17740359;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Banco de Crédito;FAC-6725
+89016545;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;BBVA;FAC-7640
+79531344;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Scotiabank;FAC-7655
+35019098;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-8767
+64938607;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Banco de Crédito;FAC-7596
+24341623;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Scotiabank;FAC-8741
+55172091;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-6895
+31416125;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Interbank;FAC-7447
+49579572;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Banco de Crédito;FAC-6406
+64816383;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;BBVA;FAC-6643
+24764960;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-5029
+29659435;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Scotiabank;FAC-8595
+11512618;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-8844
+51149000;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Scotiabank;FAC-8740
+64639028;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;BBVA;FAC-6974
+62520057;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Scotiabank;FAC-6817
+29576193;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-9353
+89418542;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Interbank;FAC-6670
+55894422;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Banco de Crédito;FAC-5895
+29878589;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-5822
+29617905;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Scotiabank;FAC-7172
+97470404;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Financiera Efectiva;FAC-7656
+67080495;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Financiera Efectiva;FAC-7086
+77940083;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Banco de Crédito;FAC-6866
+63188285;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;BBVA;FAC-9387
+50801245;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Banco de Crédito;FAC-5483
+96378886;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;BBVA;FAC-7847
+57503983;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Scotiabank;FAC-7033
+94558066;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Scotiabank;FAC-5734
+97495255;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Banco de Crédito;FAC-7778
+98608613;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Interbank;FAC-9116
+61339569;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;BBVA;FAC-7908
+12781652;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;BBVA;FAC-5888
+11516660;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Financiera Efectiva;FAC-7258
+53799966;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;BBVA;FAC-5030
+63349023;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Interbank;FAC-8891
+43198605;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-6561
+87084786;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Interbank;FAC-8021
+92304617;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Banco de Crédito;FAC-6301
+22453218;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Financiera Efectiva;FAC-5790
+49563471;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Banco de Crédito;FAC-7032
+65186135;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-5861
+74769196;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Financiera Efectiva;FAC-8985
+68147528;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Financiera Efectiva;FAC-9410
+10148306;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Banco de Crédito;FAC-6880
+68082429;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Banco de Crédito;FAC-6657
+26186862;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Financiera Efectiva;FAC-5666
+97814287;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Banco de Crédito;FAC-5763
+87854219;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Banco de Crédito;FAC-7898
+11035108;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;BBVA;FAC-6234
+19039414;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Banco de Crédito;FAC-8479
+49464554;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-6386
+70769147;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Financiera Efectiva;FAC-5249
+97651861;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;BBVA;FAC-9201
+72106999;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-9306
+51439367;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Scotiabank;FAC-7790
+70859938;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Banco de Crédito;FAC-7917
+48719240;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-8409
+89639578;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Banco de Crédito;FAC-8469
+91580616;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;BBVA;FAC-8932
+95251438;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Scotiabank;FAC-6671
+86385361;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Banco de Crédito;FAC-7185
+77911424;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;BBVA;FAC-7361
+34237745;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-7054
+53973529;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Financiera Efectiva;FAC-7008
+14878154;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Scotiabank;FAC-6612
+49128074;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Interbank;FAC-9077
+75376411;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-7037
+34412204;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Financiera Efectiva;FAC-9395
+50244119;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Financiera Efectiva;FAC-7228
+48622689;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Interbank;FAC-8532
+21011831;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Interbank;FAC-7171
+64672053;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Banco de Crédito;FAC-7443
+46185155;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Scotiabank;FAC-5359
+38093327;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;BBVA;FAC-5652
+13956778;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;BBVA;FAC-5519
+13580509;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Financiera Efectiva;FAC-8010
+82558835;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Banco de Crédito;FAC-7753
+77413407;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;BBVA;FAC-6089
+78359708;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Scotiabank;FAC-6193
+63796428;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;BBVA;FAC-7476
+37237527;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Financiera Efectiva;FAC-8298
+66633727;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Scotiabank;FAC-9252
+36564808;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;BBVA;FAC-7959
+67736192;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;BBVA;FAC-7114
+85108644;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Scotiabank;FAC-8228
+68983224;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Financiera Efectiva;FAC-6679
+66226686;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;BBVA;FAC-5831
+44753961;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-5937
+68347786;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Interbank;FAC-9140
+49970006;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-8757
+40223477;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Interbank;FAC-5407
+50840312;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Banco de Crédito;FAC-6112
+78364222;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Scotiabank;FAC-8800
+93148192;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Scotiabank;FAC-9015
+63972027;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Financiera Efectiva;FAC-7276
+30134226;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Interbank;FAC-7983
+84826821;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Banco de Crédito;FAC-7834
+34789949;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-8447
+11615181;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;BBVA;FAC-5872
+26665315;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Banco de Crédito;FAC-8710
+26448425;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-5511
+77238053;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Scotiabank;FAC-7735
+35866772;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-7068
+49854065;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Interbank;FAC-7183
+89758652;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-7878
+52498545;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Interbank;FAC-9183
+84036280;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;BBVA;FAC-6170
+59809097;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-8096
+39222385;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Interbank;FAC-7520
+36324669;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Scotiabank;FAC-8992
+69692729;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Interbank;FAC-8969
+99198479;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;BBVA;FAC-5317
+22287621;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-8508
+66526516;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-5662
+81286833;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-8240
+92493325;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Interbank;FAC-6076
+69455272;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Financiera Efectiva;FAC-8814
+48017506;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Banco de Crédito;FAC-8882
+61560137;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;BBVA;FAC-7814
+68804362;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Financiera Efectiva;FAC-6395
+86348102;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Financiera Efectiva;FAC-7256
+89159856;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-7400
+54964299;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Banco de Crédito;FAC-9233
+81531611;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-7385
+49606299;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-7605
+33116594;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;BBVA;FAC-6792
+47139867;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Banco de Crédito;FAC-6883
+27274101;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;BBVA;FAC-9439
+22670831;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Scotiabank;FAC-7522
+41665404;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Banco de Crédito;FAC-5074
+76214943;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-8538
+45251584;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Interbank;FAC-6587
+65632936;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Interbank;FAC-6099
+56016628;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Banco de Crédito;FAC-8838
+81115113;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;BBVA;FAC-8400
+83956984;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Interbank;FAC-6086
+69727147;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;BBVA;FAC-5928
+58439031;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Banco de Crédito;FAC-5452
+82166079;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;BBVA;FAC-8972
+99555533;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Scotiabank;FAC-6750
+31948964;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Financiera Efectiva;FAC-6504
+77768648;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Banco de Crédito;FAC-8390
+33288503;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Interbank;FAC-7609
+40461032;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Banco de Crédito;FAC-9006
+17736085;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-6318
+70467028;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-8241
+45788921;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Scotiabank;FAC-5001
+10988807;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;BBVA;FAC-7000
+46196300;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Interbank;FAC-8039
+24922527;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;BBVA;FAC-8331
+16754510;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Interbank;FAC-7566
+91925877;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-8529
+31325818;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Banco de Crédito;FAC-9191
+86521084;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Financiera Efectiva;FAC-7055
+22044455;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-6623
+50960790;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;BBVA;FAC-9138
+29244209;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Financiera Efectiva;FAC-6590
+28147067;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-8753
+99695402;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;Interbank;FAC-8386
+43932579;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-7154
+96740199;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Banco de Crédito;FAC-5643
+10814422;Toyota;RAV4;Venta Exitosa;Agencia;2026;SUV Familiar;34500;3450;31050;Financiera Efectiva;FAC-5454
+25030066;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Financiera Efectiva;FAC-6190
+52488295;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Banco de Crédito;FAC-7347
+67903052;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;BBVA;FAC-9060
+32284148;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Banco de Crédito;FAC-6988
+31763210;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Scotiabank;FAC-9091
+99488296;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Interbank;FAC-7845
+82261245;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Financiera Efectiva;FAC-8817
+20971075;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;BBVA;FAC-7092
+78156882;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Banco de Crédito;FAC-9049
+78795600;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;BBVA;FAC-9029
+57831146;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;BBVA;FAC-6364
+36317156;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Banco de Crédito;FAC-8049
+24126119;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Financiera Efectiva;FAC-8450
+66171946;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Scotiabank;FAC-9342
+34463497;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Interbank;FAC-6212
+57813521;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Financiera Efectiva;FAC-7445
+26902155;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;BBVA;FAC-7662
+88774891;Chevrolet;Onix;Venta Exitosa;Agencia;2026;Sedán / Hatchback;19500;1950;17550;Financiera Efectiva;FAC-5244
+92496190;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Financiera Efectiva;FAC-7557
+44822065;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Interbank;FAC-5970
+47198120;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Financiera Efectiva;FAC-8184
+99642237;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Scotiabank;FAC-6471
+28059195;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Interbank;FAC-8688
+97471336;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Banco de Crédito;FAC-8752
+92673678;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Scotiabank;FAC-6828
+73864416;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-7495
+76641541;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Financiera Efectiva;FAC-6754
+70642153;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;Scotiabank;FAC-6537
+86120467;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Banco de Crédito;FAC-5953
+84377986;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Banco de Crédito;FAC-6521
+41053176;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Scotiabank;FAC-8677
+42655881;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Scotiabank;FAC-7341
+83811552;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;Banco de Crédito;FAC-9465
+51142200;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;Banco de Crédito;FAC-5109
+12412712;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Banco de Crédito;FAC-8722
+95801963;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Scotiabank;FAC-7533
+54747158;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;BBVA;FAC-8970
+43323220;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-8152
+29748999;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Scotiabank;FAC-5325
+81486441;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-6658
+12732467;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Interbank;FAC-8235
+15294512;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Banco de Crédito;FAC-7514
+36613746;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;BBVA;FAC-5956
+10125312;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Interbank;FAC-7669
+16279763;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-8296
+25551270;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Interbank;FAC-5560
+26674698;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Interbank;FAC-8059
+97258185;Hyundai;i10;Venta Exitosa;Agencia;2026;Hatchback / City Car;15200;1520;13680;Scotiabank;FAC-5802
+81906485;Hyundai;Elantra;Venta Exitosa;Agencia;2026;Sedán Mediano;24000;2400;21600;Scotiabank;FAC-8706
+65138447;Kia;Sportage;Venta Exitosa;Agencia;2026;SUV Mediano;32500;3250;29250;BBVA;FAC-6243
+83675118;Nissan;Frontier;Venta Exitosa;Agencia;2026;Pick-up;36000;3600;32400;Interbank;FAC-9361
+61290944;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;Banco de Crédito;FAC-6341
+56322178;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;Interbank;FAC-8577
+35960887;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;Financiera Efectiva;FAC-6973
+14021357;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Scotiabank;FAC-9230
+95451554;Chevrolet;Tracker;Venta Exitosa;Agencia;2026;SUV Compacto;26500;2650;23850;BBVA;FAC-7423
+88702317;Chevrolet;Captiva;Venta Exitosa;Agencia;2026;SUV Mediano;31000;3100;27900;BBVA;FAC-7929
+25179722;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-8726
+95508998;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Financiera Efectiva;FAC-7647
+93971475;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-6173
+33231262;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Scotiabank;FAC-8566
+31217984;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;Financiera Efectiva;FAC-6600
+83506850;Kia;Picanto;Venta Exitosa;Agencia;2026;Hatchback / City Car;14500;1450;13050;BBVA;FAC-5007
+22781162;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Interbank;FAC-8404
+22479981;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;Interbank;FAC-5691
+67893326;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Banco de Crédito;FAC-7270
+76011608;Toyota;Hilux;Venta Exitosa;Agencia;2026;Pick-up;38500;3850;34650;BBVA;FAC-8138
+35856487;Nissan;Sentra;Venta Exitosa;Agencia;2026;Sedán Mediano;24500;2450;22050;Financiera Efectiva;FAC-9001
+41423273;Hyundai;Tucson;Venta Exitosa;Agencia;2026;SUV Mediano;33000;3300;29700;Financiera Efectiva;FAC-7826
+89412080;Hyundai;Accent;Venta Exitosa;Agencia;2026;Sedán Familiar;21000;2100;18900;BBVA;FAC-8188
+47127690;Toyota;Corolla;Venta Exitosa;Agencia;2026;Sedán Mediano;25500;2550;22950;BBVA;FAC-6687
+72063270;Kia;Rio;Venta Exitosa;Agencia;2026;Sedán / Hatchback;18500;1850;16650;BBVA;FAC-5949
+91354905;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Scotiabank;FAC-5534
+95507830;Nissan;Versa;Venta Exitosa;Agencia;2026;Sedán Familiar;20500;2050;18450;Financiera Efectiva;FAC-8644
+26431928;Nissan;Kicks;Venta Exitosa;Agencia;2026;SUV Compacto;26000;2600;23400;Financiera Efectiva;FAC-6230
+44155540;Chevrolet;Sail;Venta Exitosa;Agencia;2026;Sedán Económico;16000;1600;14400;Banco de Crédito;FAC-7709
+19745693;Toyota;Yaris;Venta Exitosa;Agencia;2026;Sedán / Hatchback;20000;2000;18000;Interbank;FAC-6688
+92855831;Kia;Cerato;Venta Exitosa;Agencia;2026;Sedán Mediano;23500;2350;21150;BBVA;FAC-9358

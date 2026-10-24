@@ -1,0 +1,160 @@
+-- 1. Asegurar el uso de la base de datos destino correcta
+USE dbconsolidado_3fn;
+
+-- 2. Desactivar temporalmente la revisión de llaves para una reestructuración limpia
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- 3. Limpieza absoluta de estructuras previas para evitar conflictos
+DROP VIEW IF EXISTS clientes;
+DROP VIEW IF EXISTS ventas;
+DROP VIEW IF EXISTS autos;
+DROP TABLE IF EXISTS clientes;
+DROP TABLE IF EXISTS ventas;
+DROP TABLE IF EXISTS autos;
+DROP TABLE IF EXISTS bancos;
+DROP TABLE IF EXISTS categorias;
+DROP TABLE IF EXISTS marcas;
+DROP TABLE IF EXISTS modelos;
+DROP TABLE IF EXISTS origenes;
+
+-- 4. Creación de las Tablas Maestras para la 3FN (Catálogos puros)
+CREATE TABLE bancos (
+    id_banco INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_banco VARCHAR(100) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE categorias (
+    id_categoria INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_categoria VARCHAR(50) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE marcas (
+    id_marca INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_marca VARCHAR(50) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE modelos (
+    id_modelo INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_modelo VARCHAR(50) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE origenes (
+    id_origen INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_origen VARCHAR(50) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- 5. Creación de la tabla 'autos' con las columnas requeridas por el INSERT de tu Python
+CREATE TABLE autos (
+    id_auto INT AUTO_INCREMENT PRIMARY KEY,
+    id_marca INT,
+    id_modelo INT,
+    marca VARCHAR(50),  -- Requerido por db.py
+    modelo VARCHAR(50), -- Requerido por db.py
+    categoria VARCHAR(50) NULL,     -- Añadido para solucionar el error de inserción de la línea 50
+    precio_lista VARCHAR(255) NULL, -- Añadido para solucionar el error de inserción de la línea 50
+    FOREIGN KEY (id_marca) REFERENCES marcas(id_marca) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- 6. Creación de la Tabla Central 'ventas' con soporte para todas las relaciones
+CREATE TABLE ventas (
+    id_venta INT AUTO_INCREMENT PRIMARY KEY, 
+    dni INT NOT NULL,
+    anio INT,
+    id_banco INT,
+    id_categoria INT,
+    id_auto INT,                              
+    cuota_inicial VARCHAR(255),
+    estado VARCHAR(255),
+    factura VARCHAR(255),
+    id_marca INT,
+    id_modelo INT,
+    monto_financiado VARCHAR(255),
+    id_origen INT,
+    precio_lista VARCHAR(255),
+    comentario TEXT,
+    score INT,
+    origen VARCHAR(50) NULL,
+    CONSTRAINT fk_banco FOREIGN KEY (id_banco) REFERENCES bancos(id_banco) ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT fk_categoria FOREIGN KEY (id_categoria) REFERENCES categorias(id_categoria) ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT fk_auto_central FOREIGN KEY (id_auto) REFERENCES autos(id_auto) ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT fk_marca FOREIGN KEY (id_marca) REFERENCES marcas(id_marca) ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT fk_modelo FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo) ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT fk_origen FOREIGN KEY (id_origen) REFERENCES origenes(id_origen) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- 7. Crear la estructura física de la tabla 'clientes' requerida por las inserciones y consultas
+CREATE TABLE clientes (
+    dni INT PRIMARY KEY,
+    comentario TEXT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- 8. Reactivar restricciones de llaves foráneas para proceder al llenado consistente
+SET FOREIGN_KEY_CHECKS = 1;
+
+-- =====================================================================
+-- 9. LLENADO DE DATOS ÚNICOS EN LOS CATÁLOGOS MAESTROS
+-- =====================================================================
+INSERT IGNORE INTO bancos (nombre_banco)
+SELECT DISTINCT banco FROM dbconsolidado.consolidado WHERE banco IS NOT NULL AND banco != '';
+
+INSERT IGNORE INTO categorias (nombre_categoria)
+SELECT DISTINCT categoria FROM dbconsolidado.consolidado WHERE categoria IS NOT NULL AND categoria != '';
+
+INSERT IGNORE INTO marcas (nombre_marca)
+SELECT DISTINCT marca FROM dbconsolidado.consolidado WHERE marca IS NOT NULL AND marca != '';
+
+INSERT IGNORE INTO modelos (nombre_modelo)
+SELECT DISTINCT modelo FROM dbconsolidado.consolidado WHERE modelo IS NOT NULL AND modelo != '';
+
+INSERT IGNORE INTO origenes (nombre_origen)
+SELECT DISTINCT origen FROM dbconsolidado.consolidado WHERE origen IS NOT NULL AND origen != '';
+
+-- =====================================================================
+-- 10. POBLAR LA TABLA DE AUTOS ASIGNANDO TEXTOS E IDs COMPATIBLES
+-- =====================================================================
+INSERT IGNORE INTO autos (id_marca, id_modelo, marca, modelo, categoria, precio_lista)
+SELECT DISTINCT m.id_marca, mdl.id_modelo, m.nombre_marca, mdl.nombre_modelo, c.categoria, c.precio_lista
+FROM dbconsolidado.consolidado c
+JOIN marcas m ON c.marca COLLATE utf8mb4_general_ci = m.nombre_marca
+JOIN modelos mdl ON c.modelo COLLATE utf8mb4_general_ci = mdl.nombre_modelo;
+
+-- =====================================================================
+-- 11. POBLAR LA TABLA DE CLIENTES CON LOS COMENTARIOS EXISTENTES
+-- =====================================================================
+INSERT IGNORE INTO clientes (dni, comentario)
+SELECT DISTINCT dni, comentario FROM dbconsolidado.consolidado WHERE dni IS NOT NULL;
+
+-- =====================================================================
+-- 12. EXTRACCIÓN Y MAPEO FINAL HACIA LA TABLA CENTRAL VENTAS
+-- =====================================================================
+INSERT INTO dbconsolidado_3fn.ventas (
+    dni, anio, id_banco, id_categoria, id_auto, cuota_inicial, estado, 
+    factura, id_marca, id_modelo, monto_financiado, id_origen, 
+    precio_lista, comentario, score, origen
+)
+SELECT 
+    c.dni,
+    c.anio,
+    b.id_banco,      
+    cat.id_categoria,
+    aut.id_auto, 
+    IF(c.cuota_inicial = '' OR c.cuota_inicial IS NULL, NULL, c.cuota_inicial),
+    c.estado,
+    c.factura,
+    m.id_marca,
+    mdl.id_modelo,
+    IF(c.monto_financiado = '' OR c.monto_financiado IS NULL, NULL, c.monto_financiado),
+    o.id_origen,
+    IF(c.precio_lista = '' OR c.precio_lista IS NULL, NULL, c.precio_lista),
+    c.comentario,
+    c.score,
+    c.origen
+FROM dbconsolidado.consolidado c
+LEFT JOIN bancos b ON NULLIF(c.banco, '') COLLATE utf8mb4_general_ci = b.nombre_banco
+LEFT JOIN categorias cat ON NULLIF(c.categoria, '') COLLATE utf8mb4_general_ci = cat.nombre_categoria
+LEFT JOIN marcas m ON NULLIF(c.marca, '') COLLATE utf8mb4_general_ci = m.nombre_marca
+LEFT JOIN modelos mdl ON NULLIF(c.modelo, '') COLLATE utf8mb4_general_ci = mdl.nombre_modelo
+LEFT JOIN origenes o ON NULLIF(c.origen, '') COLLATE utf8mb4_general_ci = o.nombre_origen
+LEFT JOIN autos aut ON m.id_marca = aut.id_marca AND mdl.id_modelo = aut.id_modelo
+ORDER BY c.dni ASC;

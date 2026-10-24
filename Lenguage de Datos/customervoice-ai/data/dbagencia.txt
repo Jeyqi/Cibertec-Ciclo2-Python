@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS agencia (
+    dni INT NOT NULL,
+    marca VARCHAR(50) NOT NULL,
+    modelo VARCHAR(50) NOT NULL,
+    estado VARCHAR(30) NOT NULL,
+    origen VARCHAR(30) NOT NULL,
+    anio INT NOT NULL,
+    categoria VARCHAR(50) NOT NULL,
+    precio_lista DECIMAL(10,2) NOT NULL,
+    cuota_inicial DECIMAL(10,2) NULL,
+    monto_financiado DECIMAL(10,2) NULL,
+    banco VARCHAR(50) NULL,
+    factura VARCHAR(20) NULL,
+    PRIMARY KEY (dni)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

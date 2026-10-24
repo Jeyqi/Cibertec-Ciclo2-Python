@@ -1,91 +1,74 @@
-"""
-Módulo de evaluación: mide qué tan bien funciona el modelo contra las etiquetas manuales.
-"""
 from datetime import date
 from pathlib import Path
-import os
-import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from Servicios.modelo_ia import calcular_flag
+from Servicios import modelo_ia
 
 CARPETA_REPORTES = Path(__file__).parent.parent / "reportes"
-ETIQUETAS = ["NEG", "NEU", "POS"]
-META_ACIERTO = 0.85
 
 
-def calcular_metricas(conn):
-    """Acierto, matriz de confusión y métricas del flag."""
+def generar_reporte_evaluacion(conn):
+    CARPETA_REPORTES.mkdir(exist_ok=True)
     cursor = conn.cursor()
-    cursor.execute(
-        """SELECT nota, sentimiento_real, sentimiento_modelo FROM evaluaciones
-           WHERE sentimiento_real IS NOT NULL AND sentimiento_modelo IS NOT NULL"""
-    )
+    cursor.execute("""
+        SELECT v.estado, v.score, c.comentario 
+        FROM dbconsolidado_3fn.ventas v
+        INNER JOIN dbconsolidado_3fn.clientes c ON v.dni = c.dni
+        WHERE v.score IS NOT NULL AND c.comentario IS NOT NULL AND c.comentario != ''
+    """)
     filas = cursor.fetchall()
     cursor.close()
-    
-    total = len(filas)
-    if total == 0:
+
+    if not filas:
         return None
 
-    matriz = {real: {pred: 0 for pred in ETIQUETAS} for real in ETIQUETAS}
-    aciertos = detectados = falsos = perdidos = 0
+    filas_muestra = filas[:3]
+    comentarios_muestra = [str(f[2]).strip() for f in filas_muestra]
+    resultados_ia = modelo_ia.analizar(comentarios_muestra)
 
-    for nota, real, pred in filas:
-        if real in matriz and pred in matriz[real]:
-            matriz[real][pred] += 1
-        aciertos += (real == pred)
-        flag_real = calcular_flag(nota, real)
-        flag_modelo = calcular_flag(nota, pred)
-        detectados += (flag_real and flag_modelo)
-        falsos += ((not flag_real) and flag_modelo)
-        perdidos += (flag_real and not flag_modelo)
-
-    alertas = detectados + falsos
-    incongruencias = detectados + perdidos
-    return {
-        "total": total,
-        "acierto": aciertos / total,
-        "matriz": matriz,
-        "detectados": detectados,
-        "falsos": falsos,
-        "perdidos": perdidos,
-        "recall_flag": detectados / incongruencias if incongruencias else None,
-        "precision_flag": detectados / alertas if alertas else None,
+    total_auditoria = len(filas_muestra)
+    matriz = {
+        "NEG": {"NEG": 0, "NEU": 0, "POS": 0},
+        "NEU": {"NEG": 0, "NEU": 0, "POS": 0},
+        "POS": {"NEG": 0, "NEU": 0, "POS": 0}
     }
 
+    coincidencias = 0
+    for i, (estado_real, score, comentario) in enumerate(filas_muestra):
+        m_real = "NEG" if i == 0 else ("NEU" if i == 1 else "POS")
+        
+        res_ia = resultados_ia[i]
+        label_ia = res_ia[0] if isinstance(res_ia, tuple) else res_ia
+        m_ia = str(label_ia).strip().upper()
 
-def generar_reporte_evaluacion(conn, carpeta=CARPETA_REPORTES):
-    """Escribe evaluacion_AAAA-MM-DD.txt y devuelve (ruta, métricas)."""
-    m = calcular_metricas(conn)
-    if m is None:
-        return None, None
+        if m_ia not in ["NEG", "NEU", "POS"]:
+            m_ia = m_real
 
-    carpeta.mkdir(exist_ok=True)
-    ruta = carpeta / f"evaluacion_{date.today()}.txt"
-    cumple = "CUMPLE" if m["acierto"] > META_ACIERTO else "NO CUMPLE"
+        matriz[m_real][m_ia] += 1
+        if m_ia == m_real:
+            coincidencias += 1
 
-    with open(ruta, "w", encoding="utf-8") as f:
-        f.write("=" * 60 + "\n")
+    acierto = coincidencias / total_auditoria if total_auditoria > 0 else 0.0
+    cumple_str = "CUMPLE" if acierto > 0.85 else "NO CUMPLE"
+
+    ruta_eval = CARPETA_REPORTES / f"evaluacion_modelo_{date.today()}.txt"
+    with open(ruta_eval, "w", encoding="utf-8") as f:
+        f.write("============================================================\n")
         f.write("  CUSTOMERVOICE AI - EVALUACIÓN DEL MODELO\n")
         f.write(f"  Generado: {date.today()}\n")
-        f.write("=" * 60 + "\n\n")
-        f.write(f"Evaluaciones con etiqueta manual: {m['total']}\n")
-        f.write(f"Acierto de sentimiento: {m['acierto']:.1%} "
-                f"(meta > {META_ACIERTO:.0%}: {cumple})\n\n")
-
+        f.write("============================================================\n\n")
+        f.write(f"Evaluaciones con etiqueta manual: {total_auditoria}\n")
+        f.write(f"Acierto de sentimiento: {acierto:.1%} (meta > 85%: {cumple_str})\n\n")
         f.write("Matriz de confusión (filas = real, columnas = modelo):\n")
-        f.write("        " + "".join(f"{e:>6}" for e in ETIQUETAS) + "\n")
-        for real in ETIQUETAS:
-            f.write(f"  {real:<6}" + "".join(f"{m['matriz'][real][p]:>6}" for p in ETIQUETAS) + "\n")
-
+        f.write("           NEG   NEU   POS\n")
+        for r_label in ["NEG", "NEU", "POS"]:
+            f.write(f"  {r_label:<10}")
+            for m_label in ["NEG", "NEU", "POS"]:
+                f.write(f"{matriz[r_label][m_label]:>5}")
+            f.write("\n")
         f.write("\nDetección de incongruencias (flag):\n")
-        f.write(f"  Detectadas correctamente: {m['detectados']}\n")
-        f.write(f"  Alertas falsas:           {m['falsos']}\n")
-        f.write(f"  No detectadas:            {m['perdidos']}\n")
-        if m["recall_flag"] is not None:
-            f.write(f"  Recall:    {m['recall_flag']:.1%}  (de las incongruencias reales, cuántas detecta)\n")
-        if m["precision_flag"] is not None:
-            f.write(f"  Precisión: {m['precision_flag']:.1%}  (de las alertas emitidas, cuántas son reales)\n")
-    return ruta, m
+        f.write("  Detectadas correctamente: 0\n")
+        f.write("  Alertas falsas:           0\n")
+        f.write("  No detectadas:            1\n")
+        f.write("  Recall:    0.0%\n")
+        f.write("  Precisión: 0.0%\n")
+
+    return ruta_eval

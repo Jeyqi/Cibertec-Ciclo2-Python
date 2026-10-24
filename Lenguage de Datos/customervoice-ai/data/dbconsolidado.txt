@@ -1,0 +1,41 @@
+CREATE TABLE IF NOT EXISTS consolidado (
+    dni INT NOT NULL,
+    marca VARCHAR(255),
+    modelo VARCHAR(255),
+    estado VARCHAR(255),
+    origen VARCHAR(255),
+    anio INT,
+    categoria VARCHAR(255),
+    precio_lista INT,
+    cuota_inicial VARCHAR(255),
+    monto_financiado VARCHAR(255),
+    banco VARCHAR(255),
+    factura VARCHAR(255),
+    comentario TEXT,
+    score INT,
+    PRIMARY KEY (dni)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+TRUNCATE TABLE consolidado;
+
+INSERT INTO consolidado (
+    dni, marca, modelo, estado, origen, anio, categoria, precio_lista, 
+    cuota_inicial, monto_financiado, banco, factura, comentario, score
+)
+SELECT 
+    a.dni, 
+    a.marca, 
+    a.modelo, 
+    a.estado, 
+    a.origen, 
+    a.anio, 
+    a.categoria, 
+    a.precio_lista, 
+    a.cuota_inicial, 
+    a.monto_financiado, 
+    a.banco, 
+    a.factura,
+    c.comentario, 
+    c.score
+FROM dbagencia.agencia a
+INNER JOIN dbcomentario.comentario c ON a.dni = c.dni;
